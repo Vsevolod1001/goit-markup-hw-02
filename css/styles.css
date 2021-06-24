@@ -15,10 +15,14 @@
 
   }
 /* header */
-.header{
-   
-    /* width: 1170px; */
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+    outline: 2px solid tomato;
 }
+   
+    
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -61,6 +65,10 @@
 /* hero */
 .hero{
     background: #2F303A;
+    width: 1615px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 85px;
 }
 .hero-title{
     font-weight: 900;
@@ -81,12 +89,26 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    background-color: #2196F3;
     color: #FFFFFF;
     cursor: pointer;
     margin: 0 auto;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
-                /* advantage */
+  /* advantage */
+.advantage{
+    margin-bottom: 94px;
+}
+.advantage-list{
+    display: flex;
+}
+.advantage-logo{
+    padding: 25px 100px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
 .advantage-list-item-desk{
 
     font-weight: 700;
@@ -95,6 +117,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-top: 0;
+    margin-bottom: 10px;
 
 }
 .advantage-list-item-content{
@@ -102,6 +126,8 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* section our work */
 .work-title{
@@ -111,6 +137,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-top: 0;
 }
   /* section our team */
 .team{

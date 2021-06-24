@@ -2,6 +2,8 @@
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
   
   .link {
@@ -13,6 +15,10 @@
 
   }
 /* header */
+.header{
+   
+    /* width: 1170px; */
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -64,6 +70,8 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .modal-btn{
     font-weight: 700;
